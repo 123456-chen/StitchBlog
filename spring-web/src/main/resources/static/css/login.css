@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: "黑体";
+    background: url(../img/loginback.jpg) no-repeat top center;
+    color: #000000;
+}
+
+form {
+    width: 420px;
+    height: 200px;
+    padding-top: 60px;
+    margin: 250px auto;
+    background: rgb(255,255,255,0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+.form-control {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.number,.password,.verifCode {
+    width: 165px;
+    height: 18px;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 2px 2px 2px 22px;
+    border-radius: 5px;
+    color: #000000;
+}
+/*.number {
+    background:url(../img/33.png) no-repeat 5px center rgb(255,255,255,0.1) ;
+}
+.pas {
+    background: url(../img/44.png) no-repeat 5px center rgba(255,255,255,0.3);
+}*/
+.loginbtn {
+    width: 193px;
+    height: 28px;
+    border-radius: 6px;
+    border: 10px solid #000;
+    margin-left: 45px;
+    background: #2d77bd;
+    color: #000000;
+    border: none;
+    margin-top:10px;
+}

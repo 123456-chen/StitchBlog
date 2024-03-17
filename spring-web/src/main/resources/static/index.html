@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>登录页面</title>
+    <link type="text/css" href="../css/login.css" rel="stylesheet">
+</head>
+<body>
+<form action="/login" method="post">
+    <div class="form-control">
+        <label for="username">账   号</label>
+        <input type="text" id="username" name="username" class="number" pattern="^[a-zA-Z][a-zA-Z0-9]*$" required />
+    </div>
+    <div class="form-control">
+        <label for="password">密   码</label>
+        <input type="password" id="password" name="password" class="password" pattern="^[a-zA-Z]\w{5,17}$" required/>
+    </div>
+
+    <div class="form-control">
+        <label for="verifCode">验证码</label>
+        <input type="text" id="verifCode" name="verifCode" class="verifCode" pattern="^[a-zA-Z0-9]{4}$" required />
+    </div>
+    <div class="form-control">
+        <button type="submit" class="loginbtn" >登录</button>
+    </div>
+</form>
+</body>
+</html>
